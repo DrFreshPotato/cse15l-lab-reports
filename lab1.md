@@ -1,5 +1,5 @@
 # Lab Report 1 Tutorial
-> ![Link] (https://sdacs.ucsd.edu/~icc/index.php)  
+> ![Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)  
 > Click on this link to reset password
 
 1. Put in username (ex. "akhov" in akhov@ucsd.edu) & student id
