@@ -64,3 +64,12 @@ Sun Jan 02, 2022 11:28pm - Prepping cs15lsp23
 ```  
 Your computer (client) is now properly connected to the CSE basement computer (server)
 ## Part 4: Running Commands
+Here are some specific useful commands to try:
+
+cd ~
+cd
+ls -lat
+ls -a
+ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
+cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+cat /home/linux/ieng6/cs15lsp23/public/hello.txt
