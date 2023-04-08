@@ -14,6 +14,7 @@
 (If you't dont need to or already have Visual Studio Code, you may skip this step)
 > [Install Page](https://code.visualstudio.com/)  
 >  Click on the link to enter install page
+
 1. Simply follow the instructions provided on the page
 2. When installed, Visual Studio Code should look something like this 
 ![Image](vscode.png)
