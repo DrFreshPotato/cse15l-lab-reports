@@ -33,14 +33,16 @@ Simply follow the install instructions, don't overly worry on the options, the d
 ``` $ ssh cs15lsp23zz@ieng6.ucsd.edu ```  
 **Note:** Do not type $, it is the conventional form of commands
 3. The output should look something like this  
-```ssh cs15lsp23zz@ieng6.ucsd.edu
+```
+ssh cs15lsp23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```  
 4. Type `yes` and press enter
 5. The next output should then look like this  
-```ssh cs15lsp23zz@ieng6.ucsd.edu
+```
+ssh cs15lsp23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
@@ -49,7 +51,8 @@ Password:
 **Note:** When typing, the password will not show up in the terminal, but it is actually typing, just type your password correctly and press enter  
 
 6. The final output should look something like this  
-```Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
+```
+Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
 quota: No filesystem specified.
 Hello cs15lsp23zz, you are currently logged into ieng6-203.ucsd.edu
 
@@ -71,7 +74,7 @@ Here are some specific useful commands to try:
 * ==cd ~==
 * ==cd==
 * ==ls -lat==
-* ==ls -a==
+* <mark>ls -a</mark>
 * ==ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username==
 * ==cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/==
 * ==cat /home/linux/ieng6/cs15lsp23/public/hello.txt==
