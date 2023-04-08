@@ -51,21 +51,7 @@ Password:
 **Note:** When typing, the password will not show up in the terminal, but it is actually typing, just type your password correctly and press enter  
 
 6. The final output should look something like this  
-```
-Last login: Sun Jan  2 14:03:05 2022 from 107-217-10-235.lightspeed.sndgca.sbcglobal.net
-quota: No filesystem specified.
-Hello cs15lsp23zz, you are currently logged into ieng6-203.ucsd.edu
-
-You are using 0% CPU on this system
-
-Cluster Status 
-Hostname     Time    #Users  Load  Averages  
-ieng6-201   23:25:01   0  0.08,  0.17,  0.11
-ieng6-202   23:25:01   1  0.09,  0.15,  0.11
-ieng6-203   23:25:01   1  0.08,  0.15,  0.11
-
-Sun Jan 02, 2022 11:28pm - Prepping cs15lsp23
-```  
+![Image](remote_example.png)
 
 Your computer (client) is now properly connected to the CSE basement computer (server)
 ## Part 4: Running Commands
@@ -78,3 +64,8 @@ Here are some specific useful commands to try:
 * ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
 * cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+  
+Here is example of one of the outputs:
+
+![Image](cmdexample.png)  
+  As you try out the commands, try them out both on your client computer and the remote desktop.
