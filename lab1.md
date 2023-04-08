@@ -27,6 +27,7 @@ Simply follow the install instructions, don't overly worry on the options, the d
 
 > [Setting up Bash](https://stackoverflow.com/a/50527994)  
 > Follow the steps in the link  
+
 1. To begin using `ssh` open a terminal in VScode (shortcut is **Ctrl or Command + `**, or use Terminal -> New Terminal)
 2. Input (Replace zz with your unique account's)  
 ``` $ ssh cs15lsp23zz@ieng6.ucsd.edu ```  
@@ -62,14 +63,15 @@ ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 
 Sun Jan 02, 2022 11:28pm - Prepping cs15lsp23
 ```  
+
 Your computer (client) is now properly connected to the CSE basement computer (server)
 ## Part 4: Running Commands
 Here are some specific useful commands to try:
 
-cd ~
-cd
-ls -lat
-ls -a
-ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
-cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
-cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+* cd ~
+* cd
+* ls -lat
+* ls -a
+* ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
+* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+* cat /home/linux/ieng6/cs15lsp23/public/hello.txt
