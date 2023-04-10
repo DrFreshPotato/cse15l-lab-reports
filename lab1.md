@@ -69,7 +69,7 @@ Here are some specific useful commands to try:
 Here is example of one of the outputs:
 
 ![Image](cmdexample.png)  
-  As you try out the commands, try them out both on your client computer and the remote desktop.
+  As you try out the commands, try them out both on your client computer and the remote desktop.  
   **Note:** If you want to exit out of the remote connection you may use:
   * ```exit``` in the terminal
   * Ctrl + D
