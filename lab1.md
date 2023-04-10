@@ -17,7 +17,7 @@
 
 1. Simply follow the instructions provided on the page
 2. When installed, Visual Studio Code should look something like this 
-![Image](vscode.png)
+![Image](vscode_example.png)
 **Note:** Depending on the system and settings the color or menu bar may differ.
 
 ## Part 3: Remote Connection
