@@ -64,14 +64,14 @@ Here are some specific useful commands to try:
   * cd stands for change directory
 * ls -lat
   * ls lists out content of directory
-* ls -a
-  * 
-* ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
-  * 
-* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
-  * 
-* cat /home/linux/ieng6/cs15lsp23/public/hello.txt
-  * 
+* ls -a    
+  * f
+* ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username    
+  * hello
+* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/    
+  * h
+* cat /home/linux/ieng6/cs15lsp23/public/hello.txt    
+  * f
   
 Here is example of one of the outputs:
 
