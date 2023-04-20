@@ -4,11 +4,21 @@
 > Click on this link to reset password
 
 1. Put in username (ex. "akhov" in akhov@ucsd.edu) & student id
-2. Click on the cse15lsp23zz button ("zz" should be your own unique letters, this is your 15l username)
-3. Click on the Password Change link, then proceed on clicking "Proceed to Password Change Tool"
-4. Enter the 15l username and proceed with the link
-5. Once the email with password instructions is sent, open it up and click on the link to the reset page
-6. Enter your new password then press the Change Password button
+   ![Image](AccountSetup1.png)
+   **Note**: This is how the page should look like after you input your login.
+3. Click on the cs15lsp23zz button ("zz" should be your own unique letters, this is your 15l username)
+   ![Image](AccountSetup2.png)
+   **Note**: After pressing the button, you should see a page like this.
+4. Click on the "Global Password Change Tool" link, then proceed on clicking "Proceed to Password Change Tool"
+   ![Image](AccountSetup3.png)
+   **Note**: Do not worry that it says the application is retired, proceed as normal. 
+6. Enter the 15l username and proceed with the link
+   ![Image](AccountSetup4.png)
+   **Note**: In this page you can reset your password, the two usernames you have are __@ucsd.edu and the 15l one
+8. Once the email with password instructions is sent, open it up and click on the link to the reset page
+   ![Image](AccountSetup5.png)
+   **Note**: This is how the email should look like, press the link and follow instructions. 
+10. Enter your new password then press the Change Password button, the changes should now be saved
 
 ## Part 2: Installling Visual Studio Code
 (If you't dont need to or already have Visual Studio Code, you may skip this step)
@@ -58,20 +68,20 @@ Your computer (client) is now properly connected to the CSE basement computer (s
 ## Part 4: Running Commands
 Here are some specific useful commands to try:
 
+* cd <path>
+  * cd stands for change directory, typing a path after it will change the working directory to it
 * cd ~
-  * test
-* cd
-  * cd stands for change directory
+  * ~ is the path back to the original parent directory
 * ls -lat
-  * ls lists out content of directory
+  * ls lists out content of directory, -lat is a combination of "l" "a" "t" which is "long list format" "all" "sort by modification time"
 * ls -a    
-  * f
+  * -a means all, Lists all files including those that begin with .
 * ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username    
-  * hello
+  * lists out content of other user's directory
 * cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/    
-  * h
+  * cp means copy, this command copies hello.txt into the parent directory
 * cat /home/linux/ieng6/cs15lsp23/public/hello.txt    
-  * f
+  * cat (concatenate) reads and prints out contents of file
   
 Here is example of one of the outputs:
 
