@@ -105,8 +105,18 @@ public class ArrayExamples {
   }
 }
 
+```  
+![Image](Lab3Symptom.PNG)  
+**Note**: The symptoms and result of running the tests. The input with { 3 } passed but the other test did not. 
 ```
-```
+//Before
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = arr[arr.length - i - 1];
+    }
+}
+
+//After
 static void reverseInPlace(int[] arr) {
     int temp = 0;
     for (int i = 0; i < (arr.length) / 2; i += 1) {
@@ -115,4 +125,7 @@ static void reverseInPlace(int[] arr) {
       arr[arr.length - i - 1] = temp;
     }
 }                                
-```
+```  
+**Note**: This code block shows the before-and-after code changes to fix the bug. The original issue with the "before" was that it went through the entire array setting the first element to its respective opposite element without also replacing it. Leaving the whole array reversed partially and the latter half intact.  
+## Part 3  
+> From the labs in week 2 and 3 I learned a lot of new functions with JUnit testing and how to setup a webserver. Week 3 gave me more practice and more functions to use in order to test my programs efficiently and cover all cases. On the other hand, Week 2 gave me knowledge about territory I knew very little of, setting up the webserver, remote connecting to run that server, and how multiple people could connect and affect the webserver at once was very useful. Also ```curl``` to access URLs on servers was interesting. 
