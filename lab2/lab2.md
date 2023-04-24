@@ -47,3 +47,8 @@ class StringServer {
 }
 ```  
 **Note**: For StringServer.java to operate, I needed to import the Server.java file that Joe Politz gave us from wavelet. 
+![Image](StringServerExample1.png)  
+**Methods Called**
+* 
+![Image](StringServerExample2.png)  
+
