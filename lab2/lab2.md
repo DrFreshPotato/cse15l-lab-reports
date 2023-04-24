@@ -49,6 +49,28 @@ class StringServer {
 **Note**: For StringServer.java to operate, I needed to import the Server.java file that Joe Politz gave us from wavelet. 
 ![Image](StringServerExample1.png)  
 **Methods Called**
-* 
-![Image](StringServerExample2.png)  
+1. main Method of StringServer  
+  * The only argument passed is String[] args which is from the user's input to the command line for the port number
+2. Server.start(int port, URLHandler handler)
+  * The arguments passed don't really matter, the program works the same usually
+3. handleRequest(URI url)  
+  * url is formed from Server.java, the url itself does not particularly matter
+  * Field: ArrayList<String> stringList  
 
+**Relevant Field Changes**
+* The main field to consider is ArrayList<String> stringList because it tracks the strings added by the user and is referenced to print out its entire contents
+* This specific request changes stringList from null to {"Hello World"}    
+
+![Image](StringServerExample2.png)  
+**Methods Called**
+1. main Method of StringServer  
+  * The only argument passed is String[] args which is from the user's input to the command line for the port number
+2. Server.start(int port, URLHandler handler)
+  * The arguments passed don't really matter, the program works the same usually
+3. handleRequest(URI url)  
+  * url is formed from Server.java, the url itself does not particularly matter
+  * Field: ArrayList<String> stringList  
+
+**Relevant Field Changes**
+* The main field to consider is ArrayList<String> stringList because it tracks the strings added by the user and is referenced to print out its entire contents
+* This specific request changes stringList from {"Hello World"} to {"Hello World", "Roses are Red, Violets are Blue, I'm not good at poems, But nor are you :)"}    
