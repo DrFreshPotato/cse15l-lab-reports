@@ -74,3 +74,25 @@ class StringServer {
 **Relevant Field Changes**
 * The main field to consider is ArrayList<String> stringList because it tracks the strings added by the user and is referenced to print out its entire contents
 * This specific request changes stringList from {"Hello World"} to {"Hello World", "Roses are Red, Violets are Blue, I'm not good at poems, But nor are you :)"}    
+##Part 2: Lab 3 Bugs  
+**Faliure-Inducing Input**  
+---
+```
+@Test
+public void testReverseInPlace(){
+    int[] input1 = {12, 13, 7, 2, 33};
+    int[] expected = {33, 2, 7, 13, 12};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(expected,input1);
+}
+
+public class ArrayExamples {
+    // Changes the input array to be in reversed order
+    static void reverseInPlace(int[] arr) {
+        for(int i = 0; i < arr.length; i += 1) {
+            arr[i] = arr[arr.length - i - 1];
+        }
+  }
+}
+
+```
