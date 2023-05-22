@@ -1,11 +1,11 @@
 # Lab Report 4  
 ## Instructions:
-Log into ieng6
-Clone your fork of the repository from your Github account
-Run the tests, demonstrating that they fail
-Edit the code file to fix the failing test
-Run the tests, demonstrating that they now succeed
-Commit and push the resulting change to your Github account (you can pick any commit message!)
+1. Log into ieng6
+2. Clone your fork of the repository from your Github account
+3. Run the tests, demonstrating that they fail
+4. Edit the code file to fix the failing test
+5. Run the tests, demonstrating that they now succeed
+6. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 ![image](https://github.com/DrFreshPotato/cse15l-lab-reports/assets/57509130/7005b965-f766-494f-8fa8-8f408da0c71a)  
 **Keys Pressed**: ssh cs15lsp23nu@ieng6.ucsd.edu `<enter>` 
