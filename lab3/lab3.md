@@ -1,7 +1,7 @@
 # Lab Report 3
 ## 4 Interesting Commands with `grep`  
 #### ***Note: ALL Examples will be using the path technical/911report/chapter-1.txt***  
-#### ***Sources: <https://ss64.com/bash/grep.html> and ChatGPT***
+#### ***Sources: <https://ss64.com/bash/grep.html> and [ChatGPT](/cse15l-lab-reports/lab3/ChatGPTLogs.html)***
 ### grep -v
 ```
 //Example 1
