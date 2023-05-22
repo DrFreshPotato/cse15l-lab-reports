@@ -7,14 +7,14 @@ Edit the code file to fix the failing test
 Run the tests, demonstrating that they now succeed
 Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-![image](https://github.com/DrFreshPotato/cse15l-lab-reports/assets/57509130/7005b965-f766-494f-8fa8-8f408da0c71a)
+![image](https://github.com/DrFreshPotato/cse15l-lab-reports/assets/57509130/7005b965-f766-494f-8fa8-8f408da0c71a)  
 **Keys Pressed**: ssh cs15lsp23nu@ieng6.ucsd.edu `<enter>` 
   I didn't have it saved on clipboard so I typed out the command to log into my ssh account then pressed enter to enter the command.
   
 
-![image](https://github.com/DrFreshPotato/cse15l-lab-reports/assets/57509130/8ef803c6-4b6d-41c2-aa6f-9709203a9042)
+![image](https://github.com/DrFreshPotato/cse15l-lab-reports/assets/57509130/8ef803c6-4b6d-41c2-aa6f-9709203a9042)  
 **Keys Pressed**: git clone `<right click>`  
-  Went to github to copy the ssh link first, then in the terminal typed git clone then pressed <right click> to paste. 
+  Went to github to copy the ssh link first, then in the terminal typed git clone then pressed `<right click>` to paste. 
 
 ![image](https://github.com/DrFreshPotato/cse15l-lab-reports/assets/57509130/da802440-1a9c-40d5-bd0a-874586ad4be2)  
 **Keys Pressed**: cd la `<tab> <enter>` bash t `<tab> <enter>`  
@@ -25,7 +25,7 @@ Commit and push the resulting change to your Github account (you can pick any co
   To edit the failed test, we enter the broken function's file through vim text editor  
 ![image](https://github.com/DrFreshPotato/cse15l-lab-reports/assets/57509130/4b26b4f1-fe6b-4b51-9fe0-d8fc3e417041)
 **Keys Pressed**: `<r2> <:wq>`  
-  The image shows the after edit, but after the previous command the cursor was already perfectly in place over the error. The error was then fixed by replacing it with "2" then saving and exiting.  
+  The image shows the after edit, but after the previous command the cursor was already perfectly in place over the error. The error was then fixed by replacing it with "2" then saving and exiting. The error was that `index2 += 1` was originally `index1 += 1` which is incorrect.   
 
 ![image](https://github.com/DrFreshPotato/cse15l-lab-reports/assets/57509130/7d823451-9d52-4f0f-a112-a21c66c23d7e)  
 **Keys Pressed**: `<up> <up> <enter>`  
